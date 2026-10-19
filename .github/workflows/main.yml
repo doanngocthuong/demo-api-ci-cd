@@ -18,4 +18,4 @@ jobs:
         run: npm install -g newman
 
       - name: 4. Chạy bộ Test tự động
-        run: newman run RestfulBooker.postman_collection.json -e RestfulBooker.postman_environment.json -d booking_data.csv
+        run: newman run TEN_FILE_COLLECTION.json -e TEN_FILE_ENV.json -d booking_data.csv
